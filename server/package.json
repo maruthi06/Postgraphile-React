@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Postgraphile with express and react-apollo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Postgraphile",
+    "Node",
+    "js",
+    "React",
+    "React-apollo",
+    "PostgreSql"
+  ],
+  "author": "Maruthi K M",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "postgraphile": "^4.4.3"
+  }
+}
